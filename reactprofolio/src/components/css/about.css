@@ -1,0 +1,56 @@
+:root {
+    --purple: #79025B;
+    --pink: #D67AB1;
+    --pastelpink: #E7B1D0;
+    --white: #FDF7FA;
+    --paleblue: #A8DCD9;
+    --yellow: #FFBA08;
+    --blue: #3F88C5;
+    --brightpink: #E43F6F;
+    --midpurple: #BE3E82;
+    --midpink: #F56476;
+    --green: #0ca987;
+  }
+
+.aboutme{
+    background-image: url("../images/rainbowbricks.jpg");
+    background-repeat: repeat-x;
+    background-color: var(--pastelpink);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1%;
+}
+
+article {
+    padding: 20px;
+    align-content: center;
+    background-size:contain;
+    background-repeat: repeat;
+    background-color: var(--paleblue);
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.gallery {
+    margin: 5px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid var(--brightpink);
+    justify-items: center;
+    align-items: stretch;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    font-size: small;
+
+  }
+
+  .gallery:hover {
+    border: 10px solid var(--purple);
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
